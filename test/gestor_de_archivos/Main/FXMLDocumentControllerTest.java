@@ -7,12 +7,14 @@ package gestor_de_archivos.Main;
 
 import gestor_de_archivos.Gestor_de_archivos;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.TilePane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -47,6 +49,15 @@ public class FXMLDocumentControllerTest extends ApplicationTest {
         clickOn("#menItemAbout");
         ImageView imageView = lookup("#imageView").query();
         org.junit.Assert.assertNotEquals(imageView, null);
+    }
+
+    @Test
+    public void integrationTest_ClickOnGuardar_MenuOpen_() throws InterruptedException {
+        clickOn("#menFile");
+        clickOn("#menItemGuardar");
+        TimeUnit.SECONDS.sleep(2);
+        Pane pane = lookup("#pane_guardar").query();
+        org.junit.Assert.assertNotEquals(pane, null);
     }
 
     @Test
