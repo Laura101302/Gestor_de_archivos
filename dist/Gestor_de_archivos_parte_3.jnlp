@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Gestor_de_archivos_parte_3.jnlp">
+  <information>
+    <title>Gestor_de_archivos_parte_3</title>
+    <vendor>alumno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Gestor_de_archivos_parte_3.jar" size="100867" download="eager" />
+    <jar href="lib/assertj-core-3.21.0.jar" size="4971247" download="eager" />
+    <jar href="lib/hamcrest-core-2.2.jar" size="1499" download="eager" />
+    <jar href="lib/testfx-core-4.0.16-alpha.jar" size="211599" download="eager" />
+    <jar href="lib/testfx-junit-4.0.15-alpha.jar" size="9508" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Gestor_de_archivos_parte_3" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gestor_de_archivos.Gestor_de_archivos"  name="Gestor_de_archivos_parte_3" />
+  <update check="always"/>
+</jnlp>
