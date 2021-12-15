@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="alumno-HP-ProDesk-600-G4-MT" name="gestor_de_archivos.Main.FXMLDocumentControllerTest" skipped="0" tests="3" time="3.207" timestamp="2021-12-15T16:06:52">
+<testsuite errors="1" failures="0" hostname="alumno-HP-ProDesk-600-G4-MT" name="gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest" skipped="0" tests="1" time="0.402" timestamp="2021-12-15T16:18:14">
   <properties>
     <property name="netbeans.autoupdate.country" value="ES" />
     <property name="javafx.binarycss" value="false" />
     <property name="javac.test.classpath" value="/home/alumno/jdk1.8.0_111/jre/lib/javaws.jar:/home/alumno/jdk1.8.0_111/jre/lib/deploy.jar:/home/alumno/jdk1.8.0_111/jre/lib/plugin.jar:/home/alumno/Descargas/assertj-core-3.21.0.jar:/home/alumno/Descargas/hamcrest-core-2.2.jar:/home/alumno/Descargas/testfx-core-4.0.16-alpha.jar:/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/home/alumno/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/alumno/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="manifest.custom.codebase" value="*" />
+    <property name="javac.includes" value="gestor_de_archivos/MenuCrear/FXML_MenuCrearControllerTest.java" />
     <property name="ant.core.lib" value="/home/alumno/netbeans-8.2/extide/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="javafx.preloader.enabled" value="false" />
@@ -33,6 +34,7 @@
     <property name="libs.javac-api.javadoc" value="" />
     <property name="file.reference.testfx-junit-4.0.15-alpha.jar" value="/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar" />
     <property name="os.name" value="Linux" />
+    <property name="test.class" value="gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest" />
     <property name="libs.beans-binding.classpath" value="/home/alumno/netbeans-8.2/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="ap.proc.none.internal" value="" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
@@ -46,7 +48,7 @@
     <property name="user.name" value="alumno" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner gestor_de_archivos.Main.FXMLDocumentControllerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/test/results/TEST-gestor_de_archivos.Main.FXMLDocumentControllerTest.xml crashfile=/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/junitvmwatcher1819034651880885978.properties propsfile=/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/junit5337361958109950390.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/test/results/TEST-gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest.xml crashfile=/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/junitvmwatcher5625930932804021328.properties propsfile=/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/junit8600766305212121170.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -68,6 +70,7 @@
     <property name="build.compiler.emacs" value="true" />
     <property name="javafx.deploy.includeDT" value="true" />
     <property name="java.endorsed.dirs" value="/home/alumno/jdk1.8.0_111/jre/lib/endorsed" />
+    <property name="test.includes" value="gestor_de_archivos/MenuCrear/FXML_MenuCrearControllerTest.java" />
     <property name="netbeans.dynamic.classpath" value="/home/alumno/netbeans-8.2/platform/core/core-base.jar:/home/alumno/netbeans-8.2/platform/core/org-netbeans-libs-asm.jar:/home/alumno/netbeans-8.2/platform/core/org-openide-filesystems-compat8.jar:/home/alumno/netbeans-8.2/platform/core/core.jar:/home/alumno/netbeans-8.2/platform/core/asm-all-5.0.1.jar:/home/alumno/netbeans-8.2/platform/core/org-openide-filesystems.jar:/home/alumno/netbeans-8.2/platform/core/locale/core-base_zh_CN.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems_ru.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems_zh_CN.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/home/alumno/netbeans-8.2/platform/core/locale/core-base_pt_BR.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/home/alumno/netbeans-8.2/platform/core/locale/core_ja.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/home/alumno/netbeans-8.2/platform/core/locale/core-base_ja.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems_ja.jar:/home/alumno/netbeans-8.2/platform/core/locale/core_zh_CN.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems_pt_BR.jar:/home/alumno/netbeans-8.2/platform/core/locale/core_ru.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ja.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/home/alumno/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ru.jar:/home/alumno/netbeans-8.2/platform/core/locale/core-base_ru.jar:/home/alumno/netbeans-8.2/platform/core/locale/core_pt_BR.jar:/home/alumno/netbeans-8.2/nb/core/org-netbeans-upgrader.jar:/home/alumno/netbeans-8.2/nb/core/locale/core_nb_pt_BR.jar:/home/alumno/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/home/alumno/netbeans-8.2/nb/core/locale/core_nb.jar:/home/alumno/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ru.jar:/home/alumno/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ja.jar:/home/alumno/netbeans-8.2/nb/core/locale/core_nb_ru.jar:/home/alumno/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/home/alumno/netbeans-8.2/nb/core/locale/core_nb_zh_CN.jar:/home/alumno/netbeans-8.2/nb/core/locale/core_nb_ja.jar" />
     <property name="jnlp.enabled" value="false" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -83,6 +86,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
+    <property name="javac.includesfile.binary" value="/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/null656067429" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="javac.test.processorpath" value="/home/alumno/jdk1.8.0_111/jre/lib/javaws.jar:/home/alumno/jdk1.8.0_111/jre/lib/deploy.jar:/home/alumno/jdk1.8.0_111/jre/lib/plugin.jar:/home/alumno/Descargas/assertj-core-3.21.0.jar:/home/alumno/Descargas/hamcrest-core-2.2.jar:/home/alumno/Descargas/testfx-core-4.0.16-alpha.jar:/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/home/alumno/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/alumno/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
@@ -93,6 +97,7 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/home/alumno/netbeans-8.2/ide/docs/jaxb-api-doc.zip" />
     <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
+    <property name="javac.includes.binary" value="/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/test/classes/gestor_de_archivos/MenuCrear/FXML_MenuCrearControllerTest.class" />
     <property name="ant.home" value="/home/alumno/netbeans-8.2/extide/ant" />
     <property name="libs.junit_4.src" value="/home/alumno/netbeans-8.2/platform/docs/junit-4.12-sources.jar" />
     <property name="javafx.run.height" value="600" />
@@ -124,7 +129,7 @@
     <property name="manifest.available" value="true" />
     <property name="libs.spring-framework300.maven-pom" value="" />
     <property name="run.test.classpath" value="/home/alumno/jdk1.8.0_111/jre/lib/javaws.jar:/home/alumno/jdk1.8.0_111/jre/lib/deploy.jar:/home/alumno/jdk1.8.0_111/jre/lib/plugin.jar:/home/alumno/Descargas/assertj-core-3.21.0.jar:/home/alumno/Descargas/hamcrest-core-2.2.jar:/home/alumno/Descargas/testfx-core-4.0.16-alpha.jar:/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/home/alumno/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/alumno/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
-    <property name="ant.project.invoked-targets" value="test" />
+    <property name="ant.project.invoked-targets" value="test-single" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="/home/alumno/netbeans-8.2/platform/docs/swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
@@ -277,6 +282,7 @@
     <property name="libs.jpa2-persistence.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
+    <property name="ignore.failing.tests" value="true" />
     <property name="javafx.enable.concurrent.external.runs" value="false" />
     <property name="javafx.deploy.embedJNLP" value="true" />
     <property name="dist.dir" value="dist" />
@@ -286,8 +292,8 @@
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_socket" />
     <property name="ant.file.Gestor_de_archivos" value="/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build.xml" />
-    <property name="libs.MySQLDriver.src" value="" />
     <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="libs.MySQLDriver.src" value="" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="java.runtime.version" value="1.8.0_111-b14" />
     <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot" />
@@ -303,7 +309,7 @@
     <property name="excludes" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="/home/alumno/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="/home/alumno/jdk1.8.0_111/jre/lib/javaws.jar:/home/alumno/jdk1.8.0_111/jre/lib/deploy.jar:/home/alumno/jdk1.8.0_111/jre/lib/plugin.jar:/home/alumno/Descargas/assertj-core-3.21.0.jar:/home/alumno/Descargas/hamcrest-core-2.2.jar:/home/alumno/Descargas/testfx-core-4.0.16-alpha.jar:/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar:/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/classes:/home/alumno/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/alumno/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/test/classes:/home/alumno/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant-junit.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant-junit4.jar:/home/alumno/.netbeans/8.2/modules/ext/jacocoagent.jar" />
+    <property name="java.class.path" value="/home/alumno/jdk1.8.0_111/jre/lib/javaws.jar:/home/alumno/jdk1.8.0_111/jre/lib/deploy.jar:/home/alumno/jdk1.8.0_111/jre/lib/plugin.jar:/home/alumno/Descargas/assertj-core-3.21.0.jar:/home/alumno/Descargas/hamcrest-core-2.2.jar:/home/alumno/Descargas/testfx-core-4.0.16-alpha.jar:/home/alumno/Descargas/testfx-junit-4.0.15-alpha.jar:/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/classes:/home/alumno/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/alumno/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/build/test/classes:/home/alumno/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant-junit.jar:/home/alumno/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
     <property name="addExports:java.desktop/java.awt.peer" value="ALL-UNNAMED" />
     <property name="addExports:java.desktop/com.sun.beans.editors" value="ALL-UNNAMED" />
     <property name="libs.absolutelayout.src" value="" />
@@ -311,22 +317,23 @@
     <property name="os.version" value="5.11.0-40-generic" />
     <property name="application.args" value="" />
     <property name="manifest.custom.permissions" value="" />
-    <property name="main.class.available" value="true" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
     <property name="sun.desktop" value="gnome" />
     <property name="libs.hibernate4-persistence.src" value="" />
     <property name="libs.hibernate4-support.maven-pom" value="" />
     <property name="javafx.deploy.allowoffline" value="true" />
     <property name="libs.JAXB-ENDORSED.classpath" value="/home/alumno/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar" />
+    <property name="nb.internal.action.name" value="test.single" />
     <property name="libs.eclipselink.classpath" value="/home/alumno/netbeans-8.2/java/modules/ext/eclipselink/eclipselink.jar:/home/alumno/netbeans-8.2/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/home/alumno/netbeans-8.2/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="libs.beans-binding.javadoc" value="/home/alumno/netbeans-8.2/java/docs/beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="ant.file.type.Gestor_de_archivos" value="file" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.CopyLibs.classpath" value="/home/alumno/netbeans-8.2/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="libs.spring-framework300.classpath" value="/home/alumno/netbeans-8.2/ide/modules/org-apache-commons-logging.jar:/home/alumno/netbeans-8.2/java/modules/ext/cglib-2.2.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-aop-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-aspects-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-beans-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-build-src-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-support-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-core-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-expression-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-framework-bom-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-tomcat-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-jdbc-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-jms-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-orm-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-oxm-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-struts-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-test-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-tx-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-web-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar:/home/alumno/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-portlet-3.2.7.RELEASE.jar" />
     <property name="libs.hamcrest.src" value="" />
-    <property name="run.jvmargs" value="  -javaagent:&quot;/home/alumno/.netbeans/8.2/modules/ext/jacocoagent.jar&quot;=includes=gestor_de_archivos.*:gestor_de_archivos.MenuCrear.*:gestor_de_archivos.Main.*:gestor_de_archivos.Info.*:gestor_de_archivos.Resources.*:gestor_de_archivos.Funciones.*:gestor_de_archivos.Files.*,destfile=&quot;/home/alumno/NetBeansProjects/Gestor_de_archivos_parte_3/jacoco.exec-3747322769564&quot;" />
+    <property name="run.jvmargs" value="" />
     <property name="libs.hibernate4-persistence.classpath" value="/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/antlr-2.7.7.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/c3p0-0.9.2.1.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-c3p0-4.3.1.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/mchange-commons-java-0.2.3.4.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/dom4j-1.6.1.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/ehcache-core-2.4.3.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-ehcache-4.3.1.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-core-4.3.1.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/jboss-logging-3.1.3.GA.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-commons-annotations-4.0.4.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-entitymanager-4.3.1.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/javassist-3.18.1-GA.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/slf4j-api-1.6.1.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/slf4j-simple-1.6.1.jar:/home/alumno/netbeans-8.2/java/modules/ext/hibernate4/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.testng.javadoc" value="/home/alumno/netbeans-8.2/platform/docs/testng-6.8.1-javadoc.zip" />
@@ -344,21 +351,16 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="gestor_de_archivos.Main.FXMLDocumentControllerTest" name="integrationTest_ClickOnAbout_MenuOpen_OK" time="1.488" />
-  <testcase classname="gestor_de_archivos.Main.FXMLDocumentControllerTest" name="integrationTest_ClickOnAbrir_MenuOpen_OK" time="0.875" />
-  <testcase classname="gestor_de_archivos.Main.FXMLDocumentControllerTest" name="integrationTest_ClickOnGuardar_" time="0.806" />
+  <testcase classname="gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest" name="integrationTest_TilePane_OK" time="0.365">
+    <error message="the query &quot;#cancel&quot; returned no nodes." type="org.testfx.api.FxRobotException">org.testfx.api.FxRobotException: the query &quot;#cancel&quot; returned no nodes.
+	at org.testfx.api.FxRobot.queryVisibleNode(FxRobot.java:949)
+	at org.testfx.api.FxRobot.pointOfVisibleNode(FxRobot.java:922)
+	at org.testfx.api.FxRobot.clickOn(FxRobot.java:630)
+	at org.testfx.api.FxRobot.clickOn(FxRobot.java:59)
+	at org.testfx.api.FxRobotInterface.clickOn(FxRobotInterface.java:639)
+	at gestor_de_archivos.MenuCrear.FXML_MenuCrearControllerTest.integrationTest_TilePane_OK(FXML_MenuCrearControllerTest.java:19)
+</error>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[dic 15, 2021 5:06:52 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-dic 15, 2021 5:06:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-dic 15, 2021 5:06:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-dic 15, 2021 5:06:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-dic 15, 2021 5:06:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-dic 15, 2021 5:06:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
-WARNING: Loading FXML document with JavaFX API of version 8.0.171 by JavaFX runtime of version 8.0.111
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

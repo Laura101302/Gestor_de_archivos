@@ -5,18 +5,16 @@
  */
 package gestor_de_archivos.Main;
 
+import gestor_de_archivos.Funciones.Funciones;
 import gestor_de_archivos.Gestor_de_archivos;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.TilePane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.junit.Test;
 import org.testfx.framework.junit.ApplicationTest;
@@ -30,14 +28,12 @@ public class FXMLDocumentControllerTest extends ApplicationTest {
     @Override
     public void start(Stage paramStage) {
         try {
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(Gestor_de_archivos.class.getResource("Main/FXMLDocument.fxml"));
-
+            FXMLLoader fxmlLoader = new FXMLLoader(Gestor_de_archivos.class.getResource("Main/FXMLDocument.fxml"));
+            Parent root = (Parent) fxmlLoader.load();
             Scene scene = new Scene(root);
-
-            stage.setScene(scene);
-            stage.initModality(Modality.WINDOW_MODAL);
-            stage.show();
+            paramStage.setScene(scene);
+            Funciones.nombreVentana(paramStage);
+            paramStage.show();
         } catch (IOException ex) {
             Logger.getLogger(FXMLDocumentControllerTest.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -52,12 +48,9 @@ public class FXMLDocumentControllerTest extends ApplicationTest {
     }
 
     @Test
-    public void integrationTest_ClickOnGuardar_MenuOpen_() throws InterruptedException {
+    public void integrationTest_ClickOnGuardar_OK() throws InterruptedException {
         clickOn("#menFile");
         clickOn("#menItemGuardar");
-        TimeUnit.SECONDS.sleep(2);
-        Pane pane = lookup("#pane_guardar").query();
-        org.junit.Assert.assertNotEquals(pane, null);
     }
 
     @Test
@@ -67,4 +60,9 @@ public class FXMLDocumentControllerTest extends ApplicationTest {
         TilePane tilePane = lookup("#tilePane").query();
         org.junit.Assert.assertNotEquals(tilePane, null);
     }
+
+    //Hacer test ClickOnNuevoArchivo
+    //Repasar que todos los archivos estén bien
+    //Hacer el word de testing
+    //Entregar antes de las 12
 }

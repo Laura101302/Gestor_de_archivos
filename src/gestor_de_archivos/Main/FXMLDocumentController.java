@@ -15,7 +15,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextArea;
-import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
 /**
@@ -25,15 +24,10 @@ import javafx.stage.Stage;
 public class FXMLDocumentController implements Initializable {
 
     @FXML
-    private TilePane tilePane;
-
-    @FXML
     private TextArea textArea;
 
-    private Stage stageMain;
-
-    public void setTexto(Stage s) {
-        stageMain = s;
+    private Stage getStage() {
+        return (Stage) textArea.getScene().getWindow();
     }
 
     @FXML
@@ -43,7 +37,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void guardar(ActionEvent k) throws IOException {
-        Funciones.menuGuardar(textArea, tilePane, stageMain); //Pasa textArea, tilePane y stageMain a menuGuardar
+        Funciones.menuGuardar(textArea, null, getStage()); //Pasa textArea, tilePane y stageMain a menuGuardar
     }
 
     @FXML
@@ -59,7 +53,7 @@ public class FXMLDocumentController implements Initializable {
     private void abrir(ActionEvent k) { //Abre el menú "Abrir" dentro de "File"
         SingletonRutas ruta = SingletonRutas.getInstancia();
         ruta.setClear();
-        Funciones.menuAbrir(textArea, stageMain);
+        Funciones.menuAbrir(textArea, getStage());
     }
 
     @FXML
@@ -69,7 +63,7 @@ public class FXMLDocumentController implements Initializable {
 
     private void limpiarPantalla() { //Limpia la pantalla
         textArea.setText("");
-        stageMain.setTitle("Nuevo Archivo");
+        getStage().setTitle("Nuevo Archivo");
     }
 
     @Override

@@ -7,7 +7,6 @@ package gestor_de_archivos;
 
 import gestor_de_archivos.Funciones.Funciones;
 import gestor_de_archivos.Funciones.SingletonRutas;
-import gestor_de_archivos.Main.FXMLDocumentController;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
@@ -26,10 +25,7 @@ public class Gestor_de_archivos extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(Gestor_de_archivos.class.getResource("Main/FXMLDocument.fxml"));
         Parent root = (Parent) fxmlLoader.load();
-        FXMLDocumentController mainController = fxmlLoader.getController(); //Coge el controller de "Main"
-        mainController.setTexto(stage); //Pasa el stage al DocumentController
         Scene scene = new Scene(root);
-        
 
         SingletonRutas ins = SingletonRutas.getInstancia();
         stage.setScene(scene);
