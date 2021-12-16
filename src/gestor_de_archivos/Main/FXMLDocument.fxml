@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestor_de_archivos.Main.FXMLDocumentController">
+   <children>
+      <BorderPane prefHeight="506.0" prefWidth="673.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TextArea fx:id="textArea" prefHeight="480.0" prefWidth="673.0" wrapText="true" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <MenuBar prefHeight="29.0" prefWidth="673.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu fx:id="menInfo" mnemonicParsing="false" text="Info">
+                     <items>
+                        <MenuItem fx:id="menItemAbout" mnemonicParsing="false" onAction="#about" text="About" />
+                     </items>
+                  </Menu>
+                <Menu fx:id="menFile" mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem fx:id="menItemGuardar" mnemonicParsing="false" onAction="#guardar" text="Guardar" />
+                        <MenuItem fx:id="menItemBorrar" mnemonicParsing="false" onAction="#borrar" text="Borrar" />
+                        <MenuItem fx:id="menItemAbrir" mnemonicParsing="false" onAction="#abrir" text="Abrir" />
+                        <MenuItem fx:id="menItemNuevoArchivo" mnemonicParsing="false" onAction="#nuevoArchivo" text="Nuevo Archivo" />
+                     </items></Menu>
+              </menus>
+            </MenuBar>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
